@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { SharedMaterialModule } from './shared-material/shared-material.module';
-import { MatIconModule } from '@angular/material/icon';
+
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -17,7 +17,6 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     // MatButtonModule,
     SharedMaterialModule,
-    MatIconModule,
     HttpClientModule,
   ],
   providers: [],
