@@ -209,4 +209,19 @@
 
 4.5 漣漪效果(mat-ripple)
 <div class="demo-ripple-container" mat-ripple></div>
+<p></p>
+
+4.6 mat-ripple的其他屬性
+<div
+  class="demo-ripple-container"
+  mat-ripple
+  [matRippleCentered]="false"
+  [matRippleDisabled]="false"
+  [matRippleUnbounded]="false"
+  [matRippleRadius]="10"
+  [matRippleColor]="'pink'"
+></div>
+
+<button mat-raised-button (click)="triggerRipple()">觸發漣漪效果</button>
+<button mat-raised-button (click)="clearRipple()">清除漣漪效果</button>
 <router-outlet></router-outlet>
