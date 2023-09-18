@@ -1,3 +1,6 @@
+<div>{{ title }}</div>
+<p></p>
+
 2.1 使用第一個Angular Material元件 - button directive
 <div><button>Hello World!</button></div>
 <div><button mat-button>Hello World!</button></div>
@@ -35,5 +38,13 @@
   <mat-icon color="warn">warning</mat-icon>
 </div>
 <p></p>
+
+3.4 自行註冊SVG icon
+<div>
+  <mat-icon svgIcon="custom-svg:angular"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="primary"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="accent"></mat-icon>
+  <mat-icon svgIcon="custom-svg:angular" color="warn"></mat-icon>
+</div>
 
 <router-outlet></router-outlet>
