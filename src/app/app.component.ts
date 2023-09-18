@@ -23,6 +23,8 @@ export class AppComponent implements OnInit {
         'assets/images/angular_solidBlack.svg'
       )
     );
+
+    this.matIconRegistry.registerFontClassAlias('fontawesome', 'fa');
   }
 
   ngOnInit() {
